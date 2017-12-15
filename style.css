@@ -1,0 +1,152 @@
+body{
+  background-image: url("https://i.imgur.com/qa2h9W8.png");
+  text-align: center;
+  
+}
+
+h1{
+  font-family:  "Arial", cursive, sans-serif;
+}
+
+h3{
+  font-family:  "Arial", cursive, sans-serif;
+}
+
+.container{
+  text-align: center;
+  margin: auto;
+}
+
+.board{
+  border-radius: 600px;
+  border: solid 5px black;
+  height: 600px; 
+  width: 600px; 
+  margin: auto;
+  margin-top: 50px;
+}
+
+.pad{
+  border: solid 3px black;
+  width: 294px;
+  height: 294px;
+  position: relative;
+  float: left;
+  margin: 0;
+  z-index: 8;
+  
+}
+
+.green {
+    background-color:#0a0;
+    -moz-border-radius: 300px 0 0 0;
+    border-radius: 300px 0 0 0;    
+}
+
+.green-active {
+  background-color: darkgreen !important;
+}
+
+.red {
+  background-color: red;
+  -moz-border-radius: 0 300px 0 0;
+  border-radius: 0 300px 0 0;
+}
+
+.red-active {
+  background-color: darkred !important;
+}
+
+.yellow {
+  background-color: yellow;
+  -moz-border-radius: 0 0 0 300px;
+  border-radius: 0 0 0 300px;
+}
+
+.yellow-active {
+  background-color: #e6d47e !important;
+}
+
+.blue {
+  background-color: blue;
+  -moz-border-radius: 0 0 300px 0;
+  border-radius: 0 0 300px 0;
+}
+
+.blue-active {
+  background-color: darkblue !important;
+}
+
+.controls{
+  border-radius: 150px;
+  background-color: white;
+  border: solid 10px black;
+  width: 245px;
+  height: 245px;
+  position: absolute;
+  margin-left: 160px;
+  margin-top: 160px;
+  z-index: 10;
+  
+}
+
+.title{
+  margin-top: 30px;
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.inline{
+  display: inline-block;
+  vertical-align: middle;
+  
+}
+
+
+.display{
+  border: solid 2px black;
+  border-radius: 10px;
+  color: white; 
+  widht: 60px;
+  height: 45px;
+  font-size: 40px;
+  background-color: black;
+}
+
+.start, .strict{
+  margin-left: 20px;
+  margin: 20;
+  text-align: center;
+  width: 55px;
+  height: 55px;
+  border-radius: 30px;
+  border: solid 2px black;
+  font-size: 22px;
+  line-height: 55px;
+  font-weight: bold;
+}
+
+.start{
+  background-color: red;
+
+}
+
+.strict{
+  background-color: yellow;
+
+}
+
+.outter-switch{
+  background-color: black;
+  border: solid 1px black;
+  width: 60px;
+  height: 30px;
+}
+
+.inner-switch{
+  width: 30px;
+  height: 30px;
+  background-color: gray;
+  
+}
